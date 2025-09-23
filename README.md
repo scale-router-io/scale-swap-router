@@ -1,6 +1,6 @@
 # 🦎 Scale
 
-Scale provides applications built for Solana arbitrage trading. 
+Scale provides trading applications built for Solana.
 
 This is the official distribution repository of the binary for the Scale Swap Router.
 
