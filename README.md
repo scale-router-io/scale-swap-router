@@ -1,7 +1,5 @@
 # 🦎 Scale
 
-Scale provides trading applications built for Solana.
-
 This is the official distribution repository of the binary for the Scale Swap Router.
 
 ## 💡 What is the Scale Swap Router?
