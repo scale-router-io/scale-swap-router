@@ -4,11 +4,11 @@ This is the official distribution repository of the binary for the Scale Swap Ro
 
 ## 💡 What is the Scale Swap Router?
 
-The binary is a self-hosted transaction router that has three main running modes:
+The binary is a swap aggregation router that allows the user to self-host their own rate limit free endpoints:
 
-- Swap API: Hosts endpoints (/quote, /build, /send) for routing single and multi-hop swaps.
-- Off-Chain Bot: Calculates arbitrage opportunities locally using cached pool data.
-- On-Chain Bot: Sends pool addresses to the on-chain program for arbitrage calculation.
+- /quote & /build endpoints to route single and multi-hop swaps through the on-chain program.
+
+- /arb endpoint to query the on-chain programs arbitrage discovery instruction.
 
 ## 🔗 Links
 
@@ -19,7 +19,7 @@ The binary is a self-hosted transaction router that has three main running modes
 
 ## 🚨 Beta Release
 
-The router is in an open beta stage and not yet recommended for production use. 
+The router is in an open beta stage and not recommended for production use. 
 
 It may contain bugs and breaking changes are expected as the application updates.
 
